@@ -1,6 +1,6 @@
 {
-  "name": "react-custom-scrollbars-2",
-  "version": "4.3.0",
+  "name": "react-custom-scrollbars-3",
+  "version": "0.1.0",
   "description": "React scrollbars component",
   "main": "lib/index.js",
   "typings": "./index.d.ts",
@@ -27,7 +27,7 @@
     "react",
     "custom"
   ],
-  "author": "Rob Pethick",
+  "author": "Ruslan",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com//RobPethick/react-custom-scrollbars-2/issues"
