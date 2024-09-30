@@ -18,7 +18,7 @@ export default function getScrollbarWidth(defaultScrollbarWidth, cacheEnabled = 
         scrollbarWidth = (div.offsetWidth - div.clientWidth);
         document.body.removeChild(div);
     } else {
-        scrollbarWidth = 0;
+        scrollbarWidth = defaultScrollbarWidth;
     }
     return scrollbarWidth || defaultScrollbarWidth;
 }
