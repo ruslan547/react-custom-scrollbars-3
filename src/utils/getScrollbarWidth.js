@@ -1,7 +1,7 @@
 import css from 'dom-css';
 let scrollbarWidth = false;
 
-export default function getScrollbarWidth(cacheEnabled = true) {
+export default function getScrollbarWidth(defaultScrollbarWidth, cacheEnabled = true) {
     if (cacheEnabled && scrollbarWidth !== false) return scrollbarWidth;
     /* istanbul ignore else */
     if (typeof document !== 'undefined') {
@@ -20,5 +20,5 @@ export default function getScrollbarWidth(cacheEnabled = true) {
     } else {
         scrollbarWidth = 0;
     }
-    return scrollbarWidth || 0;
+    return scrollbarWidth || defaultScrollbarWidth;
 }
