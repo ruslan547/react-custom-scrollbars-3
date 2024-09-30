@@ -1,9 +1,11 @@
-react-custom-scrollbars-2
+react-custom-scrollbars-3
 =========================
 
-[![npm](https://img.shields.io/badge/npm-react--custom--scrollbars--2-brightgreen.svg?style=flat-square)]()
-[![npm version](https://img.shields.io/npm/v/react-custom-scrollbars-2.svg?style=flat-square)](https://www.npmjs.com/package/react-custom-scrollbars-2)
-[![npm downloads](https://img.shields.io/npm/dm/react-custom-scrollbars-2.svg?style=flat-square)](https://www.npmjs.com/package/react-custom-scrollbars-2)
+[//]: # ([![npm]&#40;https://img.shields.io/badge/npm-react--custom--scrollbars--2-brightgreen.svg?style=flat-square&#41;]&#40;&#41;)
+
+[//]: # ([![npm version]&#40;https://img.shields.io/npm/v/react-custom-scrollbars-2.svg?style=flat-square&#41;]&#40;https://www.npmjs.com/package/react-custom-scrollbars-2&#41;)
+
+[//]: # ([![npm downloads]&#40;https://img.shields.io/npm/dm/react-custom-scrollbars-2.svg?style=flat-square&#41;]&#40;https://www.npmjs.com/package/react-custom-scrollbars-2&#41;)
 
 * frictionless native browser scrolling
 * native scrollbars for mobile devices
@@ -18,11 +20,11 @@ react-custom-scrollbars-2
 **[Demos](https://robpethick.github.io/react-custom-scrollbars-2/) · [Documentation](https://github.com/RobPethick/react-custom-scrollbars-2/tree/master/docs)**
 
 ## Quick note
-This repo is due to the original (fantastic) [`react-custom-scrollbars`](https://www.npmjs.com/package/react-custom-scrollbars) package going a little stale and we needed a handful of bug fixes which will be managed here.
+This repo is due to the original (fantastic) [`react-custom-scrollbars-2`](https://www.npmjs.com/package/react-custom-scrollbars-2) package going a little stale and we needed a handful of bug fixes which will be managed here.
 
 ## Installation
 ```bash
-npm install react-custom-scrollbars-2 --save
+npm install react-custom-scrollbars-3 --save
 ```
 
 This assumes that you’re using [npm](http://npmjs.com/) package manager with a module bundler like [Webpack](http://webpack.github.io) or [Browserify](http://browserify.org/) to consume [CommonJS modules](http://webpack.github.io/docs/commonjs.html).
